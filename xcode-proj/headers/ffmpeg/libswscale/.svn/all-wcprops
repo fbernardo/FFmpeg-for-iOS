@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libswscale
+END
+swscale_internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libswscale/swscale_internal.h
+END
+swscale.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libswscale/swscale.h
+END
+rgb2rgb.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libswscale/rgb2rgb.h
+END

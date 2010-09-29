@@ -1,0 +1,22 @@
+#!/bin/tcsh -f
+
+if (! -d i386) mkdir i386
+if (! -d lib) mkdir lib
+
+rm i386/*.a
+
+make clean
+
+./configure --arch=i386 --extra-cflags='-arch i386' --extra-ldflags='-arch i386'  --disable-encoders --disable-debug --disable-mmx
+
+make
+
+mv libavcodec/libavcodec.a i386/
+mv libavdevice/libavdevice.a i386/
+mv libavformat/libavformat.a i386/
+mv libavutil/libavutil.a i386/
+mv libswscale/libswscale.a i386/
+
+rm lib/*.a
+
+cp i386/*.a lib/

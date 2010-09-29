@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/alpha
+END
+regdef.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/alpha/regdef.h
+END
+asm.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/alpha/asm.h
+END
+dsputil_alpha_asm.S
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/alpha/dsputil_alpha_asm.S
+END
+motion_est_mvi_asm.S
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/alpha/motion_est_mvi_asm.S
+END

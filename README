@@ -1,0 +1,11 @@
+This is a demo project for getting FFmpeg functionality into your OpenGLES applications on iOS devices.
+
+Yeah, I realize that this is coming when 4.1 has come out and we now have hardware decoding capabilities, but maybe some people want to use FFmpeg still.
+
+Anyway this is code I've been sitting on for a while that I intended to create a blog tutorial for but never got around to.
+
+You'll need to build FFmpeg, I have included some scripts (stolen from iFrameExtractor by jayparro - http://github.com/jayrparro/iFrameExtractor)
+
+THIS PROJECT DOES NOT USE SDL. NO SDL!
+
+OK I don't really know if this works as is, I can't make any guarantees.  Don't ask me to fix it for you if it doesn't work and it doesn't look like I'm maintaining it.

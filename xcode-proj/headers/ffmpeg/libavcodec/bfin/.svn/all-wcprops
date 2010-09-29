@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/bfin
+END
+fdct_bfin.S
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/bfin/fdct_bfin.S
+END
+mathops.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/bfin/mathops.h
+END
+idct_bfin.S
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/bfin/idct_bfin.S
+END
+pixels_bfin.S
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/bfin/pixels_bfin.S
+END
+dsputil_bfin.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/bfin/dsputil_bfin.h
+END
+config_bfin.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/bfin/config_bfin.h
+END
+vp3_idct_bfin.S
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/bfin/vp3_idct_bfin.S
+END

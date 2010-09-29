@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/arm
+END
+bswap.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/arm/bswap.h
+END
+timer.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/arm/timer.h
+END
+intreadwrite.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/arm/intreadwrite.h
+END

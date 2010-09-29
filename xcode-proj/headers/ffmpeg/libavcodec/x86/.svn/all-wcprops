@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/x86
+END
+fft_mmx.asm
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/x86/fft_mmx.asm
+END
+h264_deblock_sse2.asm
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/x86/h264_deblock_sse2.asm
+END
+h264_i386.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/x86/h264_i386.h
+END
+vp3dsp_mmx.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/x86/vp3dsp_mmx.h
+END
+mmx.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/x86/mmx.h
+END
+vp6dsp_mmx.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/x86/vp6dsp_mmx.h
+END
+dsputil_mmx.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/x86/dsputil_mmx.h
+END
+dsputil_yasm.asm
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/x86/dsputil_yasm.asm
+END
+x86inc.asm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/x86/x86inc.asm
+END
+h264_idct_sse2.asm
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/x86/h264_idct_sse2.asm
+END
+mathops.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/x86/mathops.h
+END
+vp3dsp_sse2.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/x86/vp3dsp_sse2.h
+END
+x86util.asm
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/x86/x86util.asm
+END
+idct_xvid.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/x86/idct_xvid.h
+END
+vp6dsp_sse2.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/x86/vp6dsp_sse2.h
+END
+fft.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/x86/fft.h
+END

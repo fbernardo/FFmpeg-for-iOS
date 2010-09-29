@@ -1,0 +1,299 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat
+END
+raw.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/raw.h
+END
+rtp_vorbis.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/rtp_vorbis.h
+END
+flacenc.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/flacenc.h
+END
+avio.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/avio.h
+END
+rtp_asf.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/rtp_asf.h
+END
+swf.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/swf.h
+END
+rtmppkt.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/rtmppkt.h
+END
+timefilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/timefilter.h
+END
+aiff.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/aiff.h
+END
+nut.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/nut.h
+END
+isom.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/isom.h
+END
+ffm.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/ffm.h
+END
+rtp_h264.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/rtp_h264.h
+END
+avc.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/avc.h
+END
+sox.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/sox.h
+END
+avlanguage.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/avlanguage.h
+END
+os_support.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/os_support.h
+END
+avi.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/avi.h
+END
+audiointerleave.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/audiointerleave.h
+END
+matroska.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/matroska.h
+END
+gxf.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/gxf.h
+END
+flv.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/flv.h
+END
+oggdec.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/oggdec.h
+END
+caf.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/caf.h
+END
+network.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/network.h
+END
+rdt.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/rdt.h
+END
+mxf.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/mxf.h
+END
+rtpenc.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/rtpenc.h
+END
+asfcrypt.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/asfcrypt.h
+END
+mpegts.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/mpegts.h
+END
+apetag.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/apetag.h
+END
+qtpalette.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/qtpalette.h
+END
+rtp.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/rtp.h
+END
+rtspcodes.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/rtspcodes.h
+END
+asf.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/asf.h
+END
+dv.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/dv.h
+END
+internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/internal.h
+END
+rm.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/rm.h
+END
+avformat.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/avformat.h
+END
+metadata.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/metadata.h
+END
+rtpdec.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/rtpdec.h
+END
+rtmp.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/rtmp.h
+END
+id3v1.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/id3v1.h
+END
+riff.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/riff.h
+END
+id3v2.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/id3v2.h
+END
+seek.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/seek.h
+END
+voc.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/voc.h
+END
+mpeg.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/mpeg.h
+END
+rtsp.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavformat/rtsp.h
+END

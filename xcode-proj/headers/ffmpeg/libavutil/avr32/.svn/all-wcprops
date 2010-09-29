@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/avr32
+END
+bswap.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/avr32/bswap.h
+END
+intreadwrite.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/avr32/intreadwrite.h
+END

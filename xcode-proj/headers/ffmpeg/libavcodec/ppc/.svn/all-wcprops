@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/ppc
+END
+dsputil_altivec.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/ppc/dsputil_altivec.h
+END
+mathops.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/ppc/mathops.h
+END
+types_altivec.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/ppc/types_altivec.h
+END
+util_altivec.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/ppc/util_altivec.h
+END
+dsputil_ppc.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/ppc/dsputil_ppc.h
+END

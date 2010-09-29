@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil
+END
+adler32.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/adler32.h
+END
+sha1.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/sha1.h
+END
+x86_cpu.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/x86_cpu.h
+END
+avstring.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/avstring.h
+END
+integer.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/integer.h
+END
+pixdesc.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/pixdesc.h
+END
+mathematics.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/mathematics.h
+END
+crc_data.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/crc_data.h
+END
+avutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/avutil.h
+END
+pixfmt.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/pixfmt.h
+END
+crc.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/crc.h
+END
+lfg.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/lfg.h
+END
+sha.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/sha.h
+END
+random_seed.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/random_seed.h
+END
+md5.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/md5.h
+END
+intfloat_readwrite.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/intfloat_readwrite.h
+END
+lls.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/lls.h
+END
+tree.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/tree.h
+END
+softfloat.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/softfloat.h
+END
+intreadwrite.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/intreadwrite.h
+END
+pca.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/pca.h
+END
+lzo.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/lzo.h
+END
+aes.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/aes.h
+END
+rational.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/rational.h
+END
+des.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/des.h
+END
+internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/internal.h
+END
+bswap.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/bswap.h
+END
+mem.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/mem.h
+END
+timer.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/timer.h
+END
+log.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/log.h
+END
+fifo.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/fifo.h
+END
+base64.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/base64.h
+END
+common.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/common.h
+END
+rc4.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavutil/rc4.h
+END

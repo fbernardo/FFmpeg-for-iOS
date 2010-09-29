@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/arm
+END
+asm.S
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/arm/asm.S
+END
+dsputil_arm.S
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/arm/dsputil_arm.S
+END
+simple_idct_arm.S
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/arm/simple_idct_arm.S
+END
+vp3dsp_neon.S
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/arm/vp3dsp_neon.S
+END
+fft_neon.S
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/arm/fft_neon.S
+END
+dsputil_armv6.S
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/arm/dsputil_armv6.S
+END
+dsputil_vfp.S
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/arm/dsputil_vfp.S
+END
+simple_idct_armv5te.S
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/arm/simple_idct_armv5te.S
+END
+jrevdct_arm.S
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/arm/jrevdct_arm.S
+END
+mathops.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/arm/mathops.h
+END
+dsputil_neon.S
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/arm/dsputil_neon.S
+END
+mpegvideo_armv5te_s.S
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/arm/mpegvideo_armv5te_s.S
+END
+h264idct_neon.S
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/arm/h264idct_neon.S
+END
+mdct_neon.S
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/arm/mdct_neon.S
+END
+simple_idct_armv6.S
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/arm/simple_idct_armv6.S
+END
+dsputil_arm.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/arm/dsputil_arm.h
+END
+h264dsp_neon.S
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/arm/h264dsp_neon.S
+END
+simple_idct_neon.S
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/arm/simple_idct_neon.S
+END
+h264pred_neon.S
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavcodec/arm/h264pred_neon.S
+END

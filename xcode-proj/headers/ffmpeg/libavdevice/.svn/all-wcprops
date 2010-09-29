@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavdevice
+END
+dv1394.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavdevice/dv1394.h
+END
+alsa-audio.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavdevice/alsa-audio.h
+END
+beosaudio.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavdevice/beosaudio.cpp
+END
+avdevice.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavdevice/avdevice.h
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavfilter
+END
+parseutils.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavfilter/parseutils.h
+END
+avfilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavfilter/avfilter.h
+END
+avfiltergraph.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavfilter/avfiltergraph.h
+END
+graphparser.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/subver/products.3DeeClients/!svn/ver/60/trunk/extern/ffmpeg_r20797/libavfilter/graphparser.h
+END
