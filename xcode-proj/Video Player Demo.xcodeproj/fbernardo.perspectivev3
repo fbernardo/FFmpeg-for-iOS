@@ -275,11 +275,14 @@
 								<string>1A5DAD1312383C88003B59D4</string>
 								<string>29B97323FDCFA39411CA2CEA</string>
 								<string>1C37FBAC04509CD000000102</string>
+								<string>3F88A9E612F71C450043BD55</string>
+								<string>3F88A9E712F71C450043BD55</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>31</integer>
+									<integer>3</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -312,12 +315,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>3F7500A40EF85FC700946203</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>SocksServerAppDelegate.h</string>
+								<string>AQHandler.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,7 +330,23 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>3F7500A50EF85FC700946203</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>SocksServerAppDelegate.h</string>
+										<string>AQHandler.m</string>
+										<key>_historyCapacity</key>
+										<integer>0</integer>
+										<key>bookmark</key>
+										<string>3F88A9FD12F71DD10043BD55</string>
+										<key>history</key>
+										<array>
+											<string>3F88A9DC12F71C430043BD55</string>
+											<string>3F88A9DD12F71C430043BD55</string>
+											<string>3F88A9DE12F71C430043BD55</string>
+											<string>3F88A9DF12F71C430043BD55</string>
+											<string>3F88A9E012F71C430043BD55</string>
+											<string>3F88A9E112F71C430043BD55</string>
+											<string>3F88A9FA12F71DD10043BD55</string>
+											<string>3F88A9FB12F71DD10043BD55</string>
+											<string>3F88A9FC12F71DD10043BD55</string>
+										</array>
 									</dict>
 									<key>SplitCount</key>
 									<string>1</string>
@@ -338,18 +359,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1583, 568}}</string>
+								<string>{{0, 0}, {1583, 1053}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 79 1920 1099 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>568pt</string>
+							<string>1053pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>485pt</string>
+							<string>0pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -363,7 +384,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1583, 458}}</string>
+										<string>{{10, 27}, {1583, -27}}</string>
+										<key>RubberWindowFrame</key>
+										<string>0 79 1920 1099 0 0 1920 1178 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -418,8 +441,6 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1583, 458}}</string>
-										<key>RubberWindowFrame</key>
-										<string>0 79 1920 1099 0 0 1920 1178 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -640,6 +661,9 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>3F88A9FE12F71DD10043BD55</string>
+		<string>3F88A9EA12F71C450043BD55</string>
+		<string>3F88A9EB12F71C450043BD55</string>
 		<string>/Users/fbernardo/Codes/FFmpeg-for-iOS/xcode-proj/Video Player Demo.xcodeproj</string>
 	</array>
 	<key>WindowString</key>

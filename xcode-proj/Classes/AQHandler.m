@@ -197,6 +197,9 @@ static void fillAudioBuffer(AudioQueueRef queue, AudioQueueBufferRef buffer){
 
 	
 	while(buffer->mPacketDescriptionCount < numPacketsToRead && lengthCopied > 0){
+		if (buffer->mAudioDataByteSize) {
+			break;
+		}
 		
 		lengthCopied = getNextAudio(_av,buffer->mAudioDataBytesCapacity-buffer->mAudioDataByteSize, (uint8_t*)buffer->mAudioData+buffer->mAudioDataByteSize,&dts,&isDone);
 		if(!lengthCopied || isDone) break;

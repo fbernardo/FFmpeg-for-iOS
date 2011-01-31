@@ -161,7 +161,7 @@ void *parseThread(void *data){
             
             r = &c->audio_ring;
             pkt = &c->audio_buffer[r->write];
-            limit = VBUF_SIZE;
+            limit = ABUF_SIZE;
         }
         else goto skip; // Got an unsupported packet; skip this packet and free it.
         
