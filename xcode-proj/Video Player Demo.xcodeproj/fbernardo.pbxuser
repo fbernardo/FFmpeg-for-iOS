@@ -1,5 +1,26 @@
 // !$*UTF8*$!
 {
+	1A208C8D123551A700DC39DF /* MoviePlayerController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1522, 2990}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2110}";
+		};
+	};
+	1D3623240D0F684500981E51 /* Video_Player_DemoAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1522, 536}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 581}";
+		};
+	};
+	1D3623250D0F684500981E51 /* Video_Player_DemoAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1522, 1021}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 966}";
+		};
+	};
 	1D6058900D05DD3D006BFB54 /* Video Player Demo */ = {
 		activeExec = 0;
 		executables = (
@@ -10,6 +31,9 @@
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 3F88A93512F7179C0043BD55 /* Video Player Demo */;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Video Player Demo */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Video Player Demo */,
+		);
 		codeSenseManager = 3F88A95712F717DB0043BD55 /* Code sense */;
 		executables = (
 			3F88A93512F7179C0043BD55 /* Video Player Demo */,
@@ -37,11 +61,40 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1304,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
 			PBXPerProjectTemplateStateSaveDate = 318183324;
 			PBXWorkspaceStateSaveDate = 318183324;
 		};
 		sourceControlManager = 3F88A95612F717DB0043BD55 /* Source Control */;
 		userBuildSettings = {
+		};
+	};
+	32CA4F630368D1EE00C91783 /* Video_Player_Demo_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1522, 536}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 332}";
 		};
 	};
 	3F88A93512F7179C0043BD55 /* Video Player Demo */ = {

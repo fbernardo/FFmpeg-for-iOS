@@ -89,8 +89,8 @@ void matSetRotZ(Matrix4x4* m, float angle)
 	const float c = cosf(angle);
 	const float s = sinf(angle);
 
-	m->m[0] = c;
-	m->m[1] = -s;
+	m->m[0] = -c;
+	m->m[1] = s;
 	m->m[2] = 0;
 	m->m[3] = 0;
 

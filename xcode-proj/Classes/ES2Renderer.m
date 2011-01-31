@@ -113,7 +113,7 @@
     
     matSetPerspective(&proj, -1, 1, 1,-1, -1, 1);
     // Just supporting one rotation direction, landscape left.  Rotate Z by 90 degrees.
-    matSetRotZ(&rot,M_PI_2);
+    matSetRotZ(&rot,M_PI);
 	
 	matMul(&mvp, &rot, &proj);
     [self setupShader];
