@@ -33,6 +33,7 @@ enum {
 	kLocked = 1
 };
 
+
 struct ring {
     unsigned long read, write, count ; 
     unsigned short lock;
@@ -44,7 +45,7 @@ struct video_context_t {
     
     AVFormatContext     *p_format_ctx;
     AVCodecContext      *p_video_ctx, *p_audio_ctx;
-  
+	
     AVPacket            packet;
     AVFrame             *p_picture, *p_picture_rgb;
     AVPacket            audio_buffer[ABUF_SIZE];
@@ -241,7 +242,7 @@ video_data_t *openMovie(const char *fileName){
     
     ctx->idx_video_stream = -1;
     ctx->idx_audio_stream = -1;
-    
+    ctx->seek_req = 0;
     err = av_open_input_file(&ctx->p_format_ctx, fileName, NULL, 0, NULL);
     if(err != 0){
         PMSG1("\n\rvideo_inst.c::openMovie failed to open input file: %s\n", fileName);

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>ActivePerspectiveName</key>
-	<string>Project</string>
+	<string>Debug</string>
 	<key>AllowedModules</key>
 	<array>
 		<dict>
@@ -281,7 +281,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
+									<integer>14</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -303,8 +303,6 @@
 							<string>MainColumn</string>
 							<real>315</real>
 						</array>
-						<key>RubberWindowFrame</key>
-						<string>0 79 1920 1099 0 0 1920 1178 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -315,14 +313,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>3F7500A40EF85FC700946203</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>AQHandler.m</string>
+								<string>MoviePlayerController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -330,22 +326,27 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>3F7500A50EF85FC700946203</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>AQHandler.m</string>
+										<string>MoviePlayerController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>3F88A9FD12F71DD10043BD55</string>
+										<string>3F88AAF212F728590043BD55</string>
 										<key>history</key>
 										<array>
 											<string>3F88A9DC12F71C430043BD55</string>
 											<string>3F88A9DD12F71C430043BD55</string>
-											<string>3F88A9DE12F71C430043BD55</string>
-											<string>3F88A9DF12F71C430043BD55</string>
-											<string>3F88A9E012F71C430043BD55</string>
-											<string>3F88A9E112F71C430043BD55</string>
-											<string>3F88A9FA12F71DD10043BD55</string>
 											<string>3F88A9FB12F71DD10043BD55</string>
-											<string>3F88A9FC12F71DD10043BD55</string>
+											<string>3F88AA0612F71F8D0043BD55</string>
+											<string>3F88AA1012F720340043BD55</string>
+											<string>3F88AA3012F720E00043BD55</string>
+											<string>3F88AA4912F723270043BD55</string>
+											<string>3F88AA8012F724B80043BD55</string>
+											<string>3F88AAA612F725CD0043BD55</string>
+											<string>3F88AADD12F7275D0043BD55</string>
+											<string>3F88AAE712F728390043BD55</string>
+											<string>3F88AAE812F728390043BD55</string>
+											<string>3F88AAE912F728390043BD55</string>
+											<string>3F88AAEA12F728390043BD55</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -359,18 +360,16 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1583, 1053}}</string>
-								<key>RubberWindowFrame</key>
-								<string>0 79 1920 1099 0 0 1920 1178 </string>
+								<string>{{0, 0}, {1583, 568}}</string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>1053pt</string>
+							<string>568pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>0pt</string>
+							<string>485pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -385,8 +384,6 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1583, -27}}</string>
-										<key>RubberWindowFrame</key>
-										<string>0 79 1920 1099 0 0 1920 1178 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -402,7 +399,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1343, 242}}</string>
+										<string>{{10, 27}, {1583, -27}}</string>
 									</dict>
 									<key>Module</key>
 									<string>PBXProjectFindModule</string>
@@ -525,6 +522,8 @@
 					<dict>
 						<key>Frame</key>
 						<string>{{0, 0}, {1920, 425}}</string>
+						<key>RubberWindowFrame</key>
+						<string>0 79 1920 1099 0 0 1920 1178 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugCLIModule</string>
@@ -599,7 +598,11 @@
 							</array>
 							<key>Frame</key>
 							<string>{{936, 0}, {984, 305}}</string>
+							<key>RubberWindowFrame</key>
+							<string>0 79 1920 1099 0 0 1920 1178 </string>
 						</dict>
+						<key>RubberWindowFrame</key>
+						<string>0 79 1920 1099 0 0 1920 1178 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugSessionModule</string>
@@ -661,7 +664,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>3F88A9FE12F71DD10043BD55</string>
 		<string>3F88A9EA12F71C450043BD55</string>
 		<string>3F88A9EB12F71C450043BD55</string>
 		<string>/Users/fbernardo/Codes/FFmpeg-for-iOS/xcode-proj/Video Player Demo.xcodeproj</string>

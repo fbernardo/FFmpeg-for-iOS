@@ -98,6 +98,7 @@ typedef struct {
 	} audio;    
 } video_data_t;
 
+
 void setupPlayer();
 
 // Returns a pointer to a video_data_t structure if successful, NULL on failure.

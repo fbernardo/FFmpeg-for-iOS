@@ -111,7 +111,7 @@
                         [renderer play];
                         [msgDelegate hideText];
                     } else {
-                        
+                        [renderer seekToTime:15*60];
                         
                     }
                     break;

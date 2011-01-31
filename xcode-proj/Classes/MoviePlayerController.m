@@ -25,7 +25,7 @@ static void *runMovie(void *data) {
     
 	// Video time base in Microseconds
 	UInt64 timeBaseUs = (UInt64) (pVideo->video.time_base * 1.0e6f);
-	
+		
     startTime = mu_currentTimeInMicros();
     
 	while(likely(isDone==0 && !pData->killThread)){
@@ -40,13 +40,13 @@ static void *runMovie(void *data) {
         
 	    buf = getNextFrame(pVideo, &isDone, &pts);
         
-        if(startPts < 0) startPts = pts;
+        if(startPts <= 0) startPts = pts;
         pData->currentPTS = pts;
         
         pts-=startPts;
         
-        dt = ((UInt64)pts * timeBaseUs) + startTime ;
-        
+        dt = ((UInt64)pts * timeBaseUs) + startTime;
+		
         while (unlikely((ct =mu_currentTimeInMicros()) < dt ) ) 	
 		{
 			sleepTime = dt - ct;
