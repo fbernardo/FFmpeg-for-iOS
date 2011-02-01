@@ -57,6 +57,8 @@
 - (void)drawView:(id)sender
 {
     [renderer render];
+	if ([renderer movieIsLoaded])
+	[msgDelegate currentTimeChanged:[renderer getMovieTimeInSeconds]];
 }
 
 - (void)layoutSubviews
@@ -105,23 +107,23 @@
                              
                         // Ideally we want to use a larger resolution than 480x320 for the ES2.0 devices. The 3G(S) can handle up to 
                         // 720x480 fairly comfortably.
-#pragma mark LOAD A MOVIE 
-                        [renderer loadVideoFile:[[[NSBundle mainBundle] pathForResource:@"fileName" ofType:@"avi"] UTF8String]];
-
+						if (![renderer movieIsLoaded]) {
+							[renderer loadVideoFile:[[[NSBundle mainBundle] pathForResource:@"fileName" ofType:@"avi"] UTF8String]];
+							[msgDelegate hideText];
+						}						
                         [renderer play];
-                        [msgDelegate hideText];
+                        
                     } else {
-                        [renderer seekToTime:15*60];
+                        [renderer pause];
                         
                     }
                     break;
                 case 2: //Double tap.
-                   
                     break;
             }
         } break;
         case 2: { //Double Touch
-            
+            [renderer seekToTime:15*60];
         } break;
         default:
             break;

@@ -41,19 +41,26 @@ static void *runMovie(void *data) {
 	    buf = getNextFrame(pVideo, &isDone, &pts);
         
         if(startPts <= 0) startPts = pts;
-        pData->currentPTS = pts;
+        if (pts != 0) pData->currentPTS = pts;
         
         pts-=startPts;
         
         dt = ((UInt64)pts * timeBaseUs) + startTime;
 		
+		//if (pts >0) {
+//			UInt64 at = [pData->pAqInst GetCurrentTime];
+//			UInt64 diff = at - ((UInt64)pts * timeBaseUs);
+//			if (diff > 999999) {
+//				PMSG1("MovieplayerController.m at: %llu		diff: %f\n", at, diff/1000.0f/1000.0f);
+//			}
+//		}
         while (unlikely((ct =mu_currentTimeInMicros()) < dt ) ) 	
 		{
 			sleepTime = dt - ct;
 			if(sleepTime < 0) sleepTime = 0;
 			usleep(sleepTime);// dt - ct < 0 only when texture is locked or we're lagging
-		}
-        
+		}        				
+				
         // The idea of having a secondary image buffer is so that we can start decoding the next frame
         // while OpenGL uploads the current frame to the texture without experiencing tearing.
         while(pData->frameReady == YES && !pData->killThread) usleep(50);
@@ -221,7 +228,8 @@ die:
     return stateInst.movieFinished;
 }
 - (int64_t) getMovieTimeInSeconds {
-    return stateInst.currentPTS / stateInst.pVideoInst->video.fps_den;
+	int64_t secs = stateInst.currentPTS * stateInst.pVideoInst->video.time_base;	
+    return secs;
 }
 - (int64_t) getMovieDurationInSeconds {
     return stateInst.pVideoInst->video.duration / (stateInst.pVideoInst->video.fps_num / stateInst.pVideoInst->video.fps_den) ;

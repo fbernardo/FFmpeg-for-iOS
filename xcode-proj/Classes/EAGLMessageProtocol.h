@@ -12,5 +12,5 @@
 @protocol EAGLMessageProtocol
 
 - (void) hideText;
-
+- (void) currentTimeChanged:(NSTimeInterval)seconds;
 @end

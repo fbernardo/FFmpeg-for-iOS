@@ -25,6 +25,7 @@ typedef struct {
 	PlayState playState;
 
     SInt64                  pauseStart;
+	SInt64                  pauseDiff;
 
 }
 - (BOOL) isPlaying;
@@ -37,5 +38,5 @@ typedef struct {
 - (void) stopPlayback;
 - (void) disposeQueue;
 - (void) clearBuffers;
-
+- (float)getCurrentDTS;
 @end

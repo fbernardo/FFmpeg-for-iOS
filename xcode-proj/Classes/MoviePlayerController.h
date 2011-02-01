@@ -51,6 +51,5 @@ typedef struct  {
 - (BOOL) movieIsFinished;
 
 - (void) closeMovie;
-- (void) nextStereoMode;
 
 @end

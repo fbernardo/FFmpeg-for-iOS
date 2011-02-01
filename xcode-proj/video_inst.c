@@ -376,6 +376,7 @@ void  seekToTime  (video_data_t* vInst, unsigned int timeInSeconds) {
 
 // Decode the next available video frame
 void* getNextFrame(video_data_t* vInst,  int* isDone, int* pts){
+	
     int got_picture = 0;
     int bytes = 0;
     int count= 0;
@@ -421,9 +422,8 @@ int   getNextAudio(video_data_t* vInst, int maxlength, uint8_t* buf, int* pts, i
     *pts = 0;
     ctx->audio_ring.lock = kLocked;
     
-    if(ctx->audio_ring.count>0 && maxlength > ctx->audio_buffer[ctx->audio_ring.read].size){
-        
-        
+    if (ctx->audio_ring.count>0 && maxlength > ctx->audio_buffer[ctx->audio_ring.read].size) {
+                
         memcpy(buf, ctx->audio_buffer[ctx->audio_ring.read].data, ctx->audio_buffer[ctx->audio_ring.read].size);
         
         *pts = ctx->audio_buffer[ctx->audio_ring.read].pts;
@@ -437,6 +437,7 @@ int   getNextAudio(video_data_t* vInst, int maxlength, uint8_t* buf, int* pts, i
         ctx->audio_ring.count--;
         
     }
+	
     ctx->audio_ring.lock = kUnlocked;
     
     if((ctx->play_state & STATE_EOF) == STATE_EOF && ctx->audio_ring.count == 0) *isDone = 1;

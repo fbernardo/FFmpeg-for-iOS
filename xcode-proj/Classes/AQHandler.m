@@ -13,8 +13,8 @@ static AQHandler* t;
 static 	UInt32 numPacketsToRead;
 static 	video_data_t* _av;
 static 	UInt64 startTime;
-static  int aqStartDts=-1  ;
-
+static  int aqStartDts=-1;
+static int currentDts= -1;
 #pragma mark C Prototypes
 
 
@@ -94,6 +94,11 @@ static void aqCallback(void *info, AudioQueueRef queue, AudioQueueBufferRef buff
         
     }
     
+	if (pauseStart != 0) {
+		pauseDiff = [self GetCurrentTime] - pauseStart;
+		pauseStart = 0;
+	}
+	
 	startTime = mu_currentTimeInMicros();
 
     
@@ -111,7 +116,9 @@ static void aqCallback(void *info, AudioQueueRef queue, AudioQueueBufferRef buff
 	
 }
 
-- (void) pausePlayback {
+- (void) pausePlayback {	
+	pauseDiff = 0;
+	pauseStart = [self GetCurrentTime];
     AudioQueuePause(playState.queue);
     playState.playing = NO;
  
@@ -138,9 +145,13 @@ static void aqCallback(void *info, AudioQueueRef queue, AudioQueueBufferRef buff
     [super dealloc];
 }
 - (Float64) GetCurrentTime {
-	AudioTimeStamp bufferTime ;
-	AudioQueueGetCurrentTime(playState.queue, NULL, &bufferTime, NULL);
-	return bufferTime.mSampleTime;
+	AudioTimeStamp c;		
+	AudioQueueGetCurrentTime(playState.queue, NULL, &c, NULL);	
+	return c.mSampleTime / _av->audio.sample_rate;
+}
+
+- (float)getCurrentDTS {
+	return currentDts * (_av->audio.time_base * 1.0e6f);
 }
 @end
 
@@ -205,12 +216,13 @@ static void fillAudioBuffer(AudioQueueRef queue, AudioQueueBufferRef buffer){
 		if(!lengthCopied || isDone) break;
       
         if(aqStartDts < 0) aqStartDts = dts;
+		if (dts>0) currentDts = dts;
 		if(buffer->mPacketDescriptionCount ==0){
 			bufferStartTime.mFlags = kAudioTimeStampSampleTimeValid;
 			bufferStartTime.mSampleTime = (Float64)(dts-aqStartDts) * _av->audio.frame_size;
 			
             if (bufferStartTime.mSampleTime <0 ) bufferStartTime.mSampleTime = 0;
-			PMSG1("AQHandler.m fillAudioBuffer: DTS for %x: %lf time base: %lf StartDTS: %d\n", (unsigned int)buffer, bufferStartTime.mSampleTime, _av->audio.time_base, aqStartDts);
+			PMSG2("AQHandler.m fillAudioBuffer: DTS for %x: %lf time base: %lf StartDTS: %d\n", (unsigned int)buffer, bufferStartTime.mSampleTime, _av->audio.time_base, aqStartDts);
 			
 		}
 		buffer->mPacketDescriptions[buffer->mPacketDescriptionCount].mStartOffset = buffer->mAudioDataByteSize;

@@ -14,10 +14,12 @@
     UIWindow *window;
     EAGLView *glView;
     UILabel *label;
+	UILabel *timeLabel;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet EAGLView *glView;
 @property (nonatomic, retain) IBOutlet UILabel *label;
+@property (nonatomic, retain) IBOutlet UILabel *timeLabel;
 @end
 

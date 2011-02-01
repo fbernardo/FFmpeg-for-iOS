@@ -14,6 +14,7 @@
 @synthesize window;
 @synthesize glView;
 @synthesize label;
+@synthesize timeLabel;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions   
 {
@@ -38,6 +39,13 @@
 }
 -(void) hideText{
     [label setHidden:YES];
+}
+- (void) currentTimeChanged:(NSTimeInterval)seconds {
+	if ([timeLabel isHidden]) {
+		[timeLabel setHidden:NO];
+	}
+	//NSLog(@"current time is %d",seconds);
+	[timeLabel setText:[NSString stringWithFormat:@"%d",seconds]];	
 }
 
 - (void)dealloc
